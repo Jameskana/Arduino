@@ -1,0 +1,33 @@
+= French AZERTY Keyboard Library for Arduino =
+
+This library allows an Arduino board with USB capabilites to act as a french AZERTY Keyboard.
+Being based on HID library you need to include "HID.h" in your sketch.
+
+For more information about the original Keyboard library please visit
+http://www.arduino.cc/en/Reference/Keyboard
+
+== limitations ==
+
+This library does not allow a perfect emulation a french AZERTY keyboard, but can be used for ascii characters (see src/KeyBoardAzertyFr.cpp).
+
+== How to use ==
+
+This library should be used like the original Keyboard Library. Simply use KeyboardAzertyFr instead of Keyboard (i.e. KeyboardAzertyFr.write('a') instead of Keyboard.write('a')).
+
+== License ==
+
+Copyright (c) Arduino LLC. All right reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
